@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title><%= title %></title>
+   <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+   <%- include('partials/header') %>
+   <h1>Случайная цитата</h1>
+   <blockquote>
+      "<%= quote.content %>"
+      <footer>— <%= quote.author %></footer>
+   </blockquote>
+</body>
+</html>
